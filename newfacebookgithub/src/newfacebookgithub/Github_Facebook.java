@@ -11,6 +11,7 @@ public class Github_Facebook {
 		
 System.setProperty("webdriver.gecko.driver","C:\\Users\\HP\\Downloads\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 WebDriver driver=new FirefoxDriver();
+System.out.println("Hello");
 driver.get("http://www.facebook.com");
 driver.findElement(By.name("email")).sendKeys("Sretha");
 
